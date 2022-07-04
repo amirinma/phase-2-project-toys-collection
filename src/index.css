@@ -1,3 +1,9 @@
+html{
+  width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,165 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#navbar{
+  display: inherit;
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  overflow: hidden;
+  width: 100%;
+  float: left;
+}
+nav a{
+  display: block;
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  padding: 16px 16px;
+  border-right: 1px solid #bbb;
+  height: 100%;
+  width: 80px;
+  text-decoration: none;
+  font-size: medium;
+  
+}
+a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+}
+
+.my-fav-toy{
+  position: inherit;
+  margin-top: 50px;
+  margin-left: 10%;
+  float: left;
+  position: inherit;
+  width: 80%;
+  height: 800px;
+  border-style: groove;
+  text-align: center;
+}
+#toy-fav-id{
+  text-align: center;
+  height: 75%;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+#toy-fav-head{
+
+  text-align: center;
+}
+#my-fav-toy-head{
+  text-align: center;
+}
+
+#toy-id{
+  display: block;
+  background-color: rgba(9, 86, 127, 0.081);
+  margin-left: 2.3%;
+  margin-top: 2.5%;
+  width: 30%;
+  float: left;
+  height: 600px;
+  border-style: ridge;
+}
+#toy-head{
+  text-align: center;
+  color: rgba(2, 57, 57, 0.766);
+}
+#toy-image{
+  background-color: rgba(135, 132, 130, 0.117);
+  width: 80%;
+  height: 70%;
+  float: right;
+  margin-right: 10%;
+}
+#toy-price{
+  margin-left: 10%;
+  float: left;
+}
+#toy-button{
+  float: right;
+  margin-right: 10%;
+  margin-top: 25px;
+  padding: 10px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+#header{
+  width: 100%;
+  float: left;
+  background-color: rgba(226, 220, 43, 0.103);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  text-align: center;
+}
+form{
+  background-color: rgba(243, 143, 21, 0.096);
+  width: 100%;
+  height: 10%;
+  float: left;
+  margin-top: 0px;
+  padding-top: 0%;
+}
+form h3{
+  margin: 5px 15px;
+  font-size: 25px;
+}
+form label{
+  margin: 5px;
+  padding: 8px 8px;
+  float: left;
+  width: 6%;
+  font-size: 18px;
+  font-weight: bold;
+}
+form input{
+  margin: 5px;
+  padding: 8px 8px;
+  float: left;
+  width: 15%;
+  border: none;
+  border-radius: 8px;
+}
+input:focus{
+ background-color: rgba(106, 133, 133, 0.204);
+}
+
+form button{
+  padding: 10px 10px;
+  background-color: rgba(255, 111, 0, 0.561);
+  border-radius: 10px;
+  font-size: 20px;
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+#tr-table{
+  display:flex;
+  background-color: rgba(237, 237, 242, 0.676);
+  width: 100%;
+  margin-top: 15px;
+}
+#tr-name{
+  width: 25%;
+  font-size: 30px;
+  
+}
+#tr-price{
+  float: right;
+  width: 15%;
+  font-size: 30px;
+}
+
+#com-hd-id{
+  text-align: center;
+  font-size: 50px;
+  padding: 15px 15px;
 }
